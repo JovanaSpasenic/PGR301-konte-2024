@@ -3,10 +3,6 @@ on:
     branches:
       - '*'
 
-defaults:
-  run:
-    working-directory: ./sentiment-demo
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
